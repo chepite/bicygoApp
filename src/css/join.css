@@ -1,0 +1,19 @@
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+form input[type="submit"]{
+    background-color: #126B72;
+        color: white;
+        border-radius: 50px;
+        border: none;
+        width: 15.9375rem;
+        height: 3.375rem;
+        margin-bottom: 1.5rem;
+        font-family: var(--poppins);
+        font-weight: 600;
+        font-size: 1.125rem;
+        margin-top: 5rem;
+}

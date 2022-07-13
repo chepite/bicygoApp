@@ -1,0 +1,10 @@
+.signup__input{
+    background-color: #F0F8F9;
+    padding: .5rem;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    border-radius: 50px;
+}
+.highlightName{
+    color:#F4722E;
+}

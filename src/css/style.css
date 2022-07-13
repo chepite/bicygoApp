@@ -1,0 +1,38 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Poppins:wght@400;600;800&display=swap'); */
+:root{
+    --nextGreen: #527561;
+    --poppins: 'Poppins', sans-serif;
+    --lato: 'Lato', sans-serif;
+    --grey: #BDBDBD;
+}
+.App{
+    font-family: var(--poppins);
+}
+.backbutton{
+    color: #BDBDBD;
+    height: 1.125rem;
+}
+.SearchBar{
+    background-color: white;
+    border-radius: 50px;
+}
+.smiley{
+    position: relative;
+    margin-right: -1rem;
+    transform: rotate(-36deg);
+    padding-bottom: .3rem;
+}
+.scroll{
+    -ms-overflow-style: none;
+        /* for Internet Explorer, Edge */
+        scrollbar-width: none;
+}
+.scroll::-webkit-scrollbar {
+    display: none;
+    /* for Chrome, Safari, and Opera */
+}
+.biking{
+    bottom: 0;
+    margin-top: 1rem;
+    height: auto;
+}

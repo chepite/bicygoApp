@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Poppins:wght@400;600;800&display=swap');
+@import url(./style.css);
+
+.onboarding__title{
+    font-family: var(--lato);
+    font-size: 1.25rem;
+}
+.onboarding__button{
+    background-color: #126B72;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    width: 13.25rem;
+    height: 3.375rem;
+    margin-bottom: 3rem;
+    font-family: var(--poppins);
+    font-weight: 600;
+    font-size: 1.125rem;
+}
+.onboarding__skipbutton{
+    color: var(--grey);
+    font-size: 1.125rem;
+}
+.image__onboarding{
+    z-index: 1;
+}
